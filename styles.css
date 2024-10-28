@@ -1,0 +1,84 @@
+body {
+  background-color: #fff;
+  color:#000;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 700px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.btn {
+  background-color: rgba(0, 149, 255, 1);
+  color:#FFF;
+  padding:15px;
+  margin:15px;
+  font-weight:900;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: rgb(0, 119, 255);
+  font-weight:900;
+}
+
+.rounded-img {
+  border-radius: 50%;
+  width:200px;
+}
+
+.card {
+  padding-top:10px;
+  padding-bottom:50px;
+  margin-inline:auto;
+  margin-block:30px;
+  background-color: #cee0fb;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.links {
+  color:#0024b6;
+}
+
+.links:hover {
+  text-decoration: none;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+  .card {
+    width:600px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+  .card {
+    width:400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+  .card {
+    width:300px;
+  }
+}
